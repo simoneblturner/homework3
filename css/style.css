@@ -17,6 +17,7 @@ body{
   background-position: center;
   background-image: url("../images/pigeon-background.JPEG");
   background-color: #DDDDDD;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -45,10 +46,15 @@ a{
   text-decoration-style: wavy;
 }
 
+tr:hover{
+  background-color: rgba(126, 8, 32, .25)
+}
+
 table{
     border: 2px solid #000000;
     margin: auto;
     border-radius: 10px; 
+    border-collapse: separate;
 
 }
 
@@ -71,10 +77,6 @@ td{
   padding: 15px;
 }
 
-tr{
-
-}
-
 *:focus{
   border: dashed 3px #417243;
 }
@@ -95,12 +97,18 @@ thead tr:last-child th:last-child{
   border-bottom-right-radius: 10px; 
 }
 
+tr:nth-child(even){
+  background-color: #D1D1D1;
+}
+
 footer{
   width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
 }
 
