@@ -41,7 +41,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #C12258;
+  color: #B21F50;
   text-decoration: underline;
   text-decoration-style: wavy;
 }
@@ -89,11 +89,11 @@ thead tr:last-child th:last-child{
   border-top-right-radius: 10px; 
 }
 
-thead tr:last-child th:first-child{
+tbody tr:last-child th:first-child{
   border-bottom-left-radius: 10px; 
 }
 
-thead tr:last-child th:last-child{
+tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10px; 
 }
 
