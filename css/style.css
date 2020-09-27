@@ -46,19 +46,19 @@ a{
   text-decoration-style: wavy;
 }
 
-tr:hover{
+tbody tr:hover{
   background-color: rgba(126, 8, 32, .25);
 }
 
 table{
-    border: 2px solid #000000;
-    margin: auto;
-    border-radius: 10px; 
-    border-collapse: separate;
+  border: 2px solid #000000;
+  margin: auto;
+  border-radius: 10px; 
+  border-collapse: separate;
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
@@ -70,7 +70,6 @@ table{
 .rowhead{
   border-top: 2px solid #000000;
   border-right: 2px solid #000000;
-
 }
 
 td{
@@ -114,4 +113,3 @@ footer{
   bottom: 0px;
   left: 0px;
 }
-
